@@ -1,4 +1,4 @@
-def calPoints(ops) -> int:
+def cal_points(ops) -> int:
     temp_record = []
 
     for c in ops:
@@ -20,6 +20,6 @@ def calPoints(ops) -> int:
 
 
 if __name__ == '__main__':
-    ops = ["5", "-2", "4", "C", "D", "9", "+", "+"]
+    op_arr = ["5", "-2", "4", "C", "D", "9", "+", "+"]
 
-    print(calPoints(ops))
+    print(cal_points(op_arr))

@@ -1,4 +1,4 @@
-def isValid(s: str) -> bool:
+def is_valid(s: str) -> bool:
     # If is odd the parentheses are not valid.
     if len(s) % 2 != 0:
         return False
@@ -39,7 +39,7 @@ def isValid(s: str) -> bool:
 if __name__ == "__main__":
     line = '(){[]}'
 
-    if isValid(line):
+    if is_valid(line):
         print("valid")
 
     else:

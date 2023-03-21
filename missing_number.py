@@ -1,4 +1,4 @@
-def missingNumbers(nums: list[int]) -> list[int]:
+def missing_numbers(nums: list[int]) -> list[int]:
     buffer_array = []
 
     for value in nums:
@@ -15,4 +15,4 @@ def missingNumbers(nums: list[int]) -> list[int]:
 if __name__ == '__main__':
     A = [1, 2, 2, 3, 4]
 
-    print(missingNumbers(A))
+    print(missing_numbers(A))

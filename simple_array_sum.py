@@ -1,7 +1,7 @@
 import time
 
 
-def simpleArraySum(nums: list[int]) -> int:
+def simple_array_sum(nums: list[int]) -> int:
     total_sum = 0
 
     first_index, last_index = 0, len(nums) - 1
@@ -27,12 +27,10 @@ def simpleArraySum(nums: list[int]) -> int:
 
             first_index += 1
             last_index -= 1
-    # return sum(nums)
 
 
 if __name__ == "__main__":
     begin = time.time()
-    # print(simpleArraySum([1, 2, 3, 4, 10, 11]))
-    print(simpleArraySum([1, 2, 3, 4, 10, 11, 13]))
+    print(simple_array_sum([1, 2, 3, 4, 10, 11, 13]))
     end = time.time()
     print("Time: {}".format(end - begin))
